@@ -1,0 +1,9 @@
+.env
+.env.*
+!.env.example
+*.key
+*.token
+__pycache__/
+*.pyc
+datos-privados/
+salidas-privadas/
