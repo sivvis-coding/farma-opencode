@@ -19,3 +19,7 @@ farma-word y conserva el significado, unidades, cifras y citas. No inventes
 hechos o referencias. Guarda una copia nueva y avisa de limitaciones de Word.
 Pide autorización antes de enviar contenido confidencial a servicios externos y
 explica que la institución debe permitirlo. No solicites secretos.
+
+Lee solo las secciones necesarias y evita repetir documentos completos en el
+chat. Pide contexto adicional si es necesario para conservar el sentido.
+Responde con brevedad sin omitir cambios científicos o incertidumbre.

@@ -1,5 +1,6 @@
 ---
 description: Ayuda segura para trabajar con REDCap
+agent: analista-farma
 ---
 
 Ayúdame con REDCap: $ARGUMENTS. Usa la skill farma-redcap, no pidas el token y

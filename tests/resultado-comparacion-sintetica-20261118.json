@@ -1,0 +1,82 @@
+{
+  "method": "one independent archived session per case and agent; synthetic data",
+  "limitations": "one run per cell; build shares global configuration; token counts are not quota",
+  "records": [
+    {
+      "scenario": "conteo",
+      "agent": "build",
+      "model_requested": "openai/gpt-6.1-terra",
+      "elapsed_seconds": 3.84,
+      "tokens_by_step": [
+        {
+          "input": 5840,
+          "output": 55,
+          "reasoning": 0,
+          "cache": {
+            "read": 0,
+            "write": 0
+          }
+        }
+      ],
+      "tool_events": 0,
+      "response": "- **Grupo A:** 3 personas y 2 eventos.\n- **Grupo B:** 3 personas y 1 evento.\n\nNo se puede inferir causalidad con estos datos: no conocemos el diseño del estudio ni los posibles factores de confusión."
+    },
+    {
+      "scenario": "conteo",
+      "agent": "asistente-farma",
+      "model_requested": "openai/gpt-6.1-terra",
+      "elapsed_seconds": 3.44,
+      "tokens_by_step": [
+        {
+          "input": 5654,
+          "output": 58,
+          "reasoning": 0,
+          "cache": {
+            "read": 0,
+            "write": 0
+          }
+        }
+      ],
+      "tool_events": 0,
+      "response": "- **Grupo A:** 3 personas y 2 eventos.\n- **Grupo B:** 3 personas y 1 evento.\n\nNo se puede inferir causalidad con estos datos: faltan información sobre la asignación a los grupos y otros posibles factores explicativos."
+    },
+    {
+      "scenario": "metodologia",
+      "agent": "build",
+      "model_requested": "openai/gpt-6.1-terra",
+      "elapsed_seconds": 3.11,
+      "tokens_by_step": [
+        {
+          "input": 5833,
+          "output": 72,
+          "reasoning": 0,
+          "cache": {
+            "read": 0,
+            "write": 0
+          }
+        }
+      ],
+      "tool_events": 0,
+      "response": "Un posible problema es el **sesgo de tiempo inmortal**: si se clasifica como tratados a quienes reciben el tratamiento más adelante y se les atribuye como tiempo tratado el periodo anterior, deben haber permanecido vivos y sin el evento hasta recibirlo. Esto puede hacer que el tratamiento parezca más beneficioso de lo que es."
+    },
+    {
+      "scenario": "metodologia",
+      "agent": "asistente-farma",
+      "model_requested": "openai/gpt-6.1-terra",
+      "elapsed_seconds": 2.88,
+      "tokens_by_step": [
+        {
+          "input": 5647,
+          "output": 71,
+          "reasoning": 0,
+          "cache": {
+            "read": 0,
+            "write": 0
+          }
+        }
+      ],
+      "tool_events": 0,
+      "response": "Un posible problema es el **sesgo de tiempo inmortal**: si se clasifica como tratados a quienes reciben el tratamiento después de comenzar el seguimiento, deben haber sobrevivido hasta ese momento para poder recibirlo.\n\nSi ese tiempo previo se atribuye al grupo tratado, el tratamiento puede parecer más beneficioso de lo que realmente es."
+    }
+  ]
+}

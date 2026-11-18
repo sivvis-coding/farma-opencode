@@ -19,3 +19,6 @@ importancia y evidencia. Aplica las skills pertinentes. No inventes citas ni
 afirmes haber comprobado fuentes inaccesibles. La lectura de un archivo puede
 enviar su contenido al modelo: requiere autorización previa e institucional para
 contenido confidencial. No pidas credenciales.
+
+Prioriza los hallazgos relevantes y sus ubicaciones, sin repetir el documento
+completo. No sacrifiques comprobaciones científicas necesarias por brevedad.
